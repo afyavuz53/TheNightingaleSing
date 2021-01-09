@@ -1,0 +1,9 @@
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Core\bin\Debug\netcoreapp3.1\TheNightingalesSing.Core.deps.json
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Core\bin\Debug\netcoreapp3.1\TheNightingalesSing.Core.dll
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Core\bin\Debug\netcoreapp3.1\TheNightingalesSing.Core.pdb
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Core\obj\Debug\netcoreapp3.1\TheNightingalesSing.Core.csprojAssemblyReference.cache
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Core\obj\Debug\netcoreapp3.1\TheNightingalesSing.Core.AssemblyInfoInputs.cache
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Core\obj\Debug\netcoreapp3.1\TheNightingalesSing.Core.AssemblyInfo.cs
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Core\obj\Debug\netcoreapp3.1\TheNightingalesSing.Core.csproj.CoreCompileInputs.cache
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Core\obj\Debug\netcoreapp3.1\TheNightingalesSing.Core.dll
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Core\obj\Debug\netcoreapp3.1\TheNightingalesSing.Core.pdb

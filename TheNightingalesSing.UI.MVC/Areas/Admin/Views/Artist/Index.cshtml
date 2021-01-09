@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_adminLayout.cshtml";
+}
+
+<section class="breadcumb-area bg-img bg-overlay" style="background-image: url(../../img/bg-img/breadcumb.jpg);">
+    <div class="bradcumbContent">
+        <p>Artist Sayfası</p>
+        <h2>Artist Page</h2>
+    </div>
+</section>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Full Name</th>
+            <th scope="col">Biografi</th>
+            <th scope="col" colspan="2"><a asp-area="admin" asp-controller="artist" asp-action="insert" class="btn oneMusic-btn btn-2 m-2">Add<i class="icon-music"></i></a></th>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+    </tbody>
+</table>
+
+@section scripts{
+    <script>
+        function GetAll() {
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:53177/api/artist/GetArtistForAdmin",
+                success: function (data) {
+                    $.ajax({
+                        type: "POST",
+                        url: "http://localhost:53234/admin/artist/LoadTableArtist",
+                        data: JSON.stringify(data),
+                        contentType: "application/Json; charset=UTF-8",
+                        success: function (response) {
+                            $("#tableBody").html(response)
+                        }
+                    })
+                }
+            })
+        }
+        $(document).ready(function () {
+            GetAll()
+        })
+        function DeleteArtist(aid) {
+            var result = confirm("Silmek istediğinize emin misiniz")
+            if (result == true) {
+                $.ajax({
+                    type: "GET",
+                    url: "http://localhost:53177/api/artist/DeleteByID/" + aid,
+                    success: function () {
+                        GetAll()
+                        alert("Artist silindi.")
+                    }
+                })
+            }
+        }
+    </script>
+}

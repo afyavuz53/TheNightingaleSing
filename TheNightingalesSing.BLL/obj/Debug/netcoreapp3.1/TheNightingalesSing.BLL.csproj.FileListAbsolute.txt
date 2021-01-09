@@ -1,0 +1,16 @@
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.BLL\bin\Debug\netcoreapp3.1\TheNightingalesSing.BLL.deps.json
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.BLL\bin\Debug\netcoreapp3.1\TheNightingalesSing.BLL.dll
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.BLL\bin\Debug\netcoreapp3.1\TheNightingalesSing.BLL.pdb
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.BLL\obj\Debug\netcoreapp3.1\TheNightingalesSing.BLL.csprojAssemblyReference.cache
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.BLL\obj\Debug\netcoreapp3.1\TheNightingalesSing.BLL.AssemblyInfoInputs.cache
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.BLL\obj\Debug\netcoreapp3.1\TheNightingalesSing.BLL.AssemblyInfo.cs
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.BLL\obj\Debug\netcoreapp3.1\TheNightingalesSing.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.BLL\obj\Debug\netcoreapp3.1\TheNightingalesSing.BLL.dll
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.BLL\obj\Debug\netcoreapp3.1\TheNightingalesSing.BLL.pdb
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.BLL\bin\Debug\netcoreapp3.1\TheNightingalesSing.Core.dll
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.BLL\bin\Debug\netcoreapp3.1\TheNightingalesSing.DAL.dll
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.BLL\bin\Debug\netcoreapp3.1\TheNightingalesSing.Model.dll
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.BLL\bin\Debug\netcoreapp3.1\TheNightingalesSing.Core.pdb
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.BLL\bin\Debug\netcoreapp3.1\TheNightingalesSing.DAL.pdb
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.BLL\bin\Debug\netcoreapp3.1\TheNightingalesSing.Model.pdb
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.BLL\obj\Debug\netcoreapp3.1\TheNightingalesSing.BLL.csproj.CopyComplete

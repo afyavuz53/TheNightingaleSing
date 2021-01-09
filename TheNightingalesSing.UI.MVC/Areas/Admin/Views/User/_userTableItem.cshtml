@@ -1,0 +1,12 @@
+﻿@model List<UserTableVM>
+
+@foreach (UserTableVM item in Model)
+{
+    <tr>
+        <td>@item.UserID</td>
+        <td>@item.UserName</td>
+        <td>@item.EMail</td>
+        <td>@item.Role</td>
+        <td>@item.IsActive</td>
+    </tr>
+}

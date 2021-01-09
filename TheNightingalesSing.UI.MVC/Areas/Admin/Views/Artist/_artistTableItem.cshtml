@@ -1,0 +1,12 @@
+﻿@model List<ArtistTableVM>
+
+@foreach (ArtistTableVM item in Model)
+{
+    <tr>
+        <td>@item.ArtistID</td>
+        <td>@item.FullName</td>
+        <td>@item.Bio</td>        
+        <td><a asp-area="admin" asp-controller="artist" asp-action="update" asp-route-id="@item.ArtistID" class="btn oneMusic-btn m-2">Update <i class="icon-settings"></i></a></td>
+        <td><a href="#" class="btn oneMusic-btn m-2" onclick="DeleteArtist(@item.ArtistID)">Delete <i class="icon-trash"></i></a></td>
+    </tr>
+}

@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+@model UserVM
+<!-- ##### Breadcumb Area Start ##### -->
+<section class="breadcumb-area bg-img bg-overlay" style="background-image: url(/img/bg-img/breadcumb3.jpg);">
+    <div class="bradcumbContent">
+        <p>See what’s new</p>
+        <h2>Login</h2>
+    </div>
+</section>
+<!-- ##### Breadcumb Area End ##### -->
+<!-- ##### Login Area Start ##### -->
+<section class="login-area section-padding-100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+                <div class="login-content">
+                    <h3>Welcome Back</h3>
+                    <!-- Login Form -->
+                    <div class="login-form">
+                        <form asp-controller="Account" asp-action="Login" method="post">
+                            <div class="form-group">
+                                <label>Kullanıcı Adı</label>
+                                <input type="text" name="UserName" class="form-control" placeholder="Kullanıcı Adınızı Giriniz">
+                            </div>
+                            <div class="form-group">
+                                <label>Şifre</label>
+                                <input type="password" name="Password" class="form-control" placeholder="Şifre Giriniz">
+                            </div>
+                            @if (ViewContext.ViewBag.Message != null)
+                            {
+                                <div class="alert alert-info" role="alert">
+                                    @ViewContext.ViewBag.Message
+                                </div>
+                            }
+                            <button type="submit" class="btn oneMusic-btn mt-30">Giriş Yap</button>
+                        </form>
+                        <a asp-action="Register" asp-controller="Account" class="btn oneMusic-btn mt-30">Kayıt Ol</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ##### Login Area End ##### -->

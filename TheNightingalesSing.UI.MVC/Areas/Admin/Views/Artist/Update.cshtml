@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Areas/Admin/Views/Shared/_adminLayout.cshtml";
+}
+
+<section class="breadcumb-area bg-img bg-overlay" style="background-image: url(../../../img/bg-img/breadcumb.jpg);">
+    <div class="bradcumbContent">
+        <p>Artist Güncelleme Sayfası</p>
+        <h2>Artist Update Page</h2>
+    </div>
+</section>
+
+<div class="login-content">
+    <form>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label" for="fullName">Artist Adı</label>
+            <div class="col-sm-10">
+                <input type="text" id="fullName" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label" for="bio">Artist Biografi</label>
+            <div class="col-sm-10">
+                <textarea class="form-control" id="bio" rows="3" placeholder="'max 500 karakter'"></textarea>
+            </div>
+        </div>
+
+    </form>
+    <button class="btn oneMusic-btn mt-30" id="updateBtn">Güncelle</button>
+</div>
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            var aid =@ViewContext.RouteData.Values["id"]
+                $.ajax({
+                    type: "GET",
+                    url: "http://localhost:53177/api/artist/GetArtistById/" + aid,
+                    success: function (respose) {
+                        $("#fullName").val(respose.fullName)
+                        $("#bio").val(respose.bio)
+                    }
+                })
+        })
+        $("#updateBtn").click(function () {
+            var artist = {
+                ArtistID: @ViewContext.RouteData.Values["id"],
+                FullName: $("#fullName").val(),
+                Bio: $("#bio").val()
+            }
+            $.ajax({
+                url: "http://localhost:53177/api/Artist/UpdateArtist",
+                type: "POST",
+                data: JSON.stringify(artist),
+                contentType: "application/json; charset=UTF-8",
+                success: function () {
+                    alert("Artist güncellendi.")
+                    $(location).attr('href', '/admin/artist/Index')
+                }
+            }).fail(function () {
+                alert("Güncelleme işlemi gerçekleşmedi. Lütfen bilgileri kontrol ediniz.")
+            })
+        })
+    </script>
+}
+

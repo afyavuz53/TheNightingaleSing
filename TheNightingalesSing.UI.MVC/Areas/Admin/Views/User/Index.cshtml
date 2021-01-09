@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_adminLayout.cshtml";
+}
+
+<section class="breadcumb-area bg-img bg-overlay" style="background-image: url(../../img/bg-img/breadcumb.jpg);">
+    <div class="bradcumbContent">
+        <p>Kullanıcılar</p>
+        <h2>Users Page</h2>
+    </div>
+</section>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Kullanıcı Adı</th>
+            <th scope="col">E-Mail</th>
+            <th scope="col">Rolü</th>
+            <th scope="col">Aktiflik</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+    </tbody>
+</table>
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:53177/api/user",
+                success: function (veri) {
+                    $.ajax({
+                        type: "POST",
+                        url: "http://localhost:53234/Admin/user/LoadUserTable",
+                        data: JSON.stringify(veri),
+                        contentType: "application/Json; charset=UTF-8",
+                        success: function (response) {
+                            $("#tableBody").html(response)
+                        }
+                    })
+                }
+            })
+        })
+    </script>
+}

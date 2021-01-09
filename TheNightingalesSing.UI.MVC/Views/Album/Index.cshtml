@@ -1,0 +1,230 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!-- ##### Breadcumb Area Start ##### -->
+<section class="breadcumb-area bg-img bg-overlay" style="background-image: url(../../img/bg-img/breadcumb3.jpg);">
+    <div class="bradcumbContent">
+        <p>See what’s new</p>
+        <h2>Latest Albums</h2>
+    </div>
+</section>
+<!-- ##### Breadcumb Area End ##### -->
+<!-- ##### Album Catagory Area Start ##### -->
+<section class="album-catagory section-padding-100-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="browse-by-catagories catagory-menu d-flex flex-wrap align-items-center mb-70">
+                    <a href="#" id="all">Browse All</a>
+                    <a href="#" id="a" name="ali">A</a>
+                    <a href="#" id="b">B</a>
+                    <a href="#" id="c">C</a>
+                    <a href="#" id="d">D</a>
+                    <a href="#" id="e">E</a>
+                    <a href="#" id="f">F</a>
+                    <a href="#" id="g">G</a>
+                    <a href="#" id="h">H</a>
+                    <a href="#" id="i">I</a>
+                    <a href="#" id="j">J</a>
+                    <a href="#" id="k">K</a>
+                    <a href="#" id="l">L</a>
+                    <a href="#" id="m">M</a>
+                    <a href="#" id="n">N</a>
+                    <a href="#" id="o">O</a>
+                    <a href="#" id="p">P</a>
+                    <a href="#" id="q">Q</a>
+                    <a href="#" id="r">R</a>
+                    <a href="#" id="s">S</a>
+                    <a href="#" id="t">T</a>
+                    <a href="#" id="u">U</a>
+                    <a href="#" id="v">V</a>
+                    <a href="#" id="w">W</a>
+                    <a href="#" id="x">X</a>
+                    <a href="#" id="y">Y</a>
+                    <a href="#" id="z">Z</a>
+                    <a href="#" id="number">0-9</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row oneMusic-albums" id="singleAlbum">
+
+            <!-- Single Album -->
+
+
+        </div>
+    </div>
+</section>
+<!-- ##### Album Catagory Area End ##### -->
+
+@section scripts{
+    <script>
+        function GetAll() {
+            $.ajax({
+                url: "http://localhost:53177/api/Album/GetAlbumsGenre",
+                type: "GET",
+                async: false,
+                success: function (response) {
+                    $.ajax({
+                        type: "POST",
+                        url: "http://localhost:53234/Album/SingleAlbum",
+                        data: JSON.stringify(response),
+                        contentType: "application/json; charset=UTF-8",
+                        success: function (data) {
+                            $("#singleAlbum").html(data)
+                        }
+                    })
+                }
+            })
+        }
+
+        $(document).ready(function () {
+            GetAll()
+        })
+
+        function GetByLetter(letter) {
+            $.ajax({
+                url: "http://localhost:53177/api/album/GetByLetter/" + letter,
+                type: "GET",
+                success: function (response) {
+                    $.ajax({
+                        type: "POST",
+                        url: "http://localhost:53234/Album/SingleAlbum",
+                        data: JSON.stringify(response),
+                        contentType: "application/json; charset=UTF-8",
+                        success: function (data) {
+                            $("#singleAlbum").html(data)
+                        }
+                    })
+                }
+            })
+        }
+
+        $("#all").click(function () {
+            GetAll()
+        })
+        $("#a").click(function () {
+            var letter = $("#a").text()
+            GetByLetter(letter)
+        })
+        $("#b").click(function () {
+            var letter = $("#b").text();
+            GetByLetter(letter)
+        })
+        $("#c").click(function () {
+            var letter = $("#c").text();
+            GetByLetter(letter)
+        })
+        $("#d").click(function () {
+            var letter = $("#d").text();
+            GetByLetter(letter)
+        })
+        $("#e").click(function () {
+            var letter = $("#e").text();
+            GetByLetter(letter)
+        })
+        $("#f").click(function () {
+            var letter = $("#f").text();
+            GetByLetter(letter)
+        })
+        $("#g").click(function () {
+            var letter = $("#g").text();
+            GetByLetter(letter)
+        })
+        $("#h").click(function () {
+            var letter = $("#h").text();
+            GetByLetter(letter)
+        })
+        $("#i").click(function () {
+            var letter = $("#i").text();
+            GetByLetter(letter)
+        })
+        $("#j").click(function () {
+            var letter = $("#j").text();
+            GetByLetter(letter)
+        })
+        $("#k").click(function () {
+            var letter = $("#k").text();
+            GetByLetter(letter)
+        })
+        $("#l").click(function () {
+            var letter = $("#l").text();
+            GetByLetter(letter)
+        })
+        $("#m").click(function () {
+            var letter = $("#m").text();
+            GetByLetter(letter)
+        })
+        $("#n").click(function () {
+            var letter = $("#n").text();
+            GetByLetter(letter)
+        })
+        $("#o").click(function () {
+            var letter = $("#o").text();
+            GetByLetter(letter)
+        })
+        $("#p").click(function () {
+            var letter = $("#p").text();
+            GetByLetter(letter)
+        })
+        $("#q").click(function () {
+            var letter = $("#q").text();
+            GetByLetter(letter)
+        })
+        $("#r").click(function () {
+            var letter = $("#r").text();
+            GetByLetter(letter)
+        })
+        $("#s").click(function () {
+            var letter = $("#s").text();
+            GetByLetter(letter)
+        })
+        $("#t").click(function () {
+            var letter = $("#t").text();
+            GetByLetter(letter)
+        })
+        $("#u").click(function () {
+            var letter = $("#u").text();
+            GetByLetter(letter)
+        })
+        $("#v").click(function () {
+            var letter = $("#v").text();
+            GetByLetter(letter)
+        })
+        $("#w").click(function () {
+            var letter = $("#w").text();
+            GetByLetter(letter)
+        })
+        $("#x").click(function () {
+            var letter = $("#x").text();
+            GetByLetter(letter)
+        })
+        $("#y").click(function () {
+            var letter = $("#y").text();
+            GetByLetter(letter)
+        })
+        $("#z").click(function () {
+            var letter = $("#z").text();
+            GetByLetter(letter)
+        })
+        $("#number").click(function () {
+            $.ajax({
+                url: "http://localhost:53177/api/Album/GetStartWithNumber",
+                type: "GET",
+                success: function (response) {
+                    $.ajax({
+                        type: "POST",
+                        url: "http://localhost:53234/Album/SingleAlbum",
+                        data: JSON.stringify(response),
+                        contentType: "application/json; charset=UTF-8",
+                        success: function (data) {
+                            $("#singleAlbum").html(data)
+                        }
+                    })
+                }
+            })
+        })
+    </script>
+}

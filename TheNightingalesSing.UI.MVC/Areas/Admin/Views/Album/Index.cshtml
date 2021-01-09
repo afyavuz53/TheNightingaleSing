@@ -1,0 +1,102 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_adminLayout.cshtml";
+}
+
+<section class="breadcumb-area bg-img bg-overlay" style="background-image: url(../../img/bg-img/breadcumb3.jpg);">
+    <div class="bradcumbContent">
+        <p>Albüm Düzenleme Sayfası</p>
+        <h2>Albums Edit Page</h2>
+    </div>
+</section>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <input type="text" id="startWith" class="form-control m-3" placeholder="Albüm Ara" onkeyup="GetAlbumBySW()" />
+        </div>
+    </div>
+</div>
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Title</th>
+            <th scope="col">Genre Name</th>
+            <th scope="col">Artist Name</th>
+            <th scope="col">Stock</th>
+            <th scope="col">Price</th>
+            <th scope="col">Continued</th>
+            <th scope="col">Discount</th>            
+            <th scope="col">Is Active</th>
+            <th scope="col" colspan="2"><a asp-area="admin" asp-controller="album" asp-action="insert" class="btn oneMusic-btn btn-2 m-2">Add<i class="icon-music"></i></a></th>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+    </tbody>
+</table>
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            GetAll();
+        })
+        function GetAll() {
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:53177/api/Album/GetAlbumForAdmin",
+                success: function (respose) {
+                    $.ajax({
+                        type: "POST",
+                        url: "http://localhost:53234/admin/album/LoadTable",
+                        data: JSON.stringify(respose),
+                        contentType: "application/json; charset=UTF-8",
+                        success: function (data) {
+                            $("#tableBody").html(data)
+                        }
+                    })
+                }
+            })
+        }
+        function GetAlbumBySW() {
+            var word = $("#startWith").val();
+            if (word != "") {
+                $.ajax({
+                    type: "GET",
+                    url: "http://localhost:53177/api/Album/GetAlbumByConstainForAdmin/" + word,
+                    success: function (respose) {
+                        $.ajax({
+                            type: "POST",
+                            url: "http://localhost:53234/admin/album/LoadTable",
+                            data: JSON.stringify(respose),
+                            contentType: "application/json; charset=UTF-8",
+                            success: function (data) {
+                                $("#tableBody").html(data)
+                            }
+                        })
+                    }
+                })
+            } else {
+                GetAll()
+            }
+        }
+        function DeleteAlbum(aid) {
+            var result = confirm("Silmek istediğinize emin misiniz?")
+            if (result == true) {
+                $.ajax({
+                    type: "GET",
+                    url: "http://localhost:53177/api/album/DeleteByID/" + aid,
+                    success: function () {
+                        GetAll()
+                        alert("Album silindi.")
+                    }
+                })
+            }
+        }
+    </script>
+}
+
+

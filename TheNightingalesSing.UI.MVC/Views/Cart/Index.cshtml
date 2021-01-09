@@ -1,0 +1,51 @@
+﻿@model MyCart
+@{
+    ViewData["Title"] = "Index";
+}
+
+<section class="featured-artist-area section-padding-100 bg-img bg-overlay bg-fixed" style="background-image: url(/img/bg-img/bg-4.jpg);">
+    <div class="container" id="sepet">
+        <partial name="_tableList" model="@Model" />
+    </div>>
+</section>
+
+@section scripts{
+    <script>
+        function CartUpdate(value, cid) {
+            $.ajax({
+                type: "GET",
+                url: "/Cart/UpdateCartItem",
+                data: { id: cid, amount: value },
+                success: function (response) {
+                    $("#sepet").html(response)                    
+                }
+            }).done(function () {
+                $.ajax({
+                    url: "http://localhost:53234/Cart/GetCartButton",
+                    type: "GET",
+                    success: function (response) {
+                        $("#cartButton").html(response)
+                    }
+                })
+            })
+        }
+        function CartDelete(cid) {
+            $.ajax({
+                type: "GET",
+                url: "/Cart/DeleteCartItem",
+                data: { id:cid },
+                success: function (response) {
+                    $("#sepet").html(response)                    
+                }
+            }).done(function () {
+                $.ajax({
+                    url: "http://localhost:53234/Cart/GetCartButton",
+                    type: "GET",
+                    success: function (response) {
+                        $("#cartButton").html(response)
+                    }
+                })
+            })
+        }
+    </script>
+}

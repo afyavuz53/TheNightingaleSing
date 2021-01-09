@@ -1,0 +1,18 @@
+﻿@model List<AlbumTableVM>
+
+    @foreach (AlbumTableVM item in Model)
+    {
+    <tr>
+        <td>@item.AlbumID</td>
+        <td>@item.Title</td>
+        <td>@item.GenreName</td>
+        <td>@item.ArtistName</td>
+        <td>@item.Stock</td>
+        <td>@item.Price</td>
+        <td>@item.Continued</td>
+        <td>@item.Discount</td>        
+        <td>@item.IsActive</td>
+        <td><a asp-area="admin" asp-controller="album" asp-action="Update" asp-route-id="@item.AlbumID" class="btn oneMusic-btn m-2">Update <i class="icon-settings"></i></a></td>
+        <td><a href="#" class="btn oneMusic-btn m-2" onclick="DeleteAlbum(@item.AlbumID)">Delete <i class="icon-trash"></i></a></td>
+    </tr>
+    }

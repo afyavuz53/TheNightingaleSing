@@ -1,0 +1,16 @@
+﻿@model List<AlbumVM>
+
+
+@foreach (AlbumVM item in Model)
+{
+    <div class="single-album">
+        <img src="@item.ArtUrl" alt="">
+        <div class="album-info">
+            <a asp-controller="Album" asp-action="Details" asp-route-id="@item.AlbumID">
+                <h5>@item.Title</h5>
+            </a>
+            <p>@item.GenreName</p>
+            <p>@item.ArtistName</p>
+        </div>
+    </div>
+}

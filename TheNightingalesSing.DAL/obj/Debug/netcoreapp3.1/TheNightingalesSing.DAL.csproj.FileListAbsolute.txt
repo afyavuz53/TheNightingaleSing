@@ -1,0 +1,17 @@
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.DAL\bin\Debug\netcoreapp3.1\TheNightingalesSing.Core.dll
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.DAL\bin\Debug\netcoreapp3.1\TheNightingalesSing.Model.dll
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.DAL\obj\Debug\netcoreapp3.1\TheNightingalesSing.DAL.csprojAssemblyReference.cache
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.DAL\obj\Debug\netcoreapp3.1\TheNightingalesSing.DAL.AssemblyInfoInputs.cache
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.DAL\obj\Debug\netcoreapp3.1\TheNightingalesSing.DAL.AssemblyInfo.cs
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.DAL\bin\Debug\netcoreapp3.1\TheNightingalesSing.DAL.deps.json
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.DAL\bin\Debug\netcoreapp3.1\TheNightingalesSing.DAL.runtimeconfig.json
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.DAL\bin\Debug\netcoreapp3.1\TheNightingalesSing.DAL.runtimeconfig.dev.json
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.DAL\bin\Debug\netcoreapp3.1\TheNightingalesSing.DAL.dll
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.DAL\bin\Debug\netcoreapp3.1\TheNightingalesSing.DAL.pdb
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.DAL\bin\Debug\netcoreapp3.1\TheNightingalesSing.Model.pdb
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.DAL\bin\Debug\netcoreapp3.1\TheNightingalesSing.Core.pdb
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.DAL\obj\Debug\netcoreapp3.1\TheNightingalesSing.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.DAL\obj\Debug\netcoreapp3.1\TheNightingalesSing.DAL.csproj.CopyComplete
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.DAL\obj\Debug\netcoreapp3.1\TheNightingalesSing.DAL.dll
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.DAL\obj\Debug\netcoreapp3.1\TheNightingalesSing.DAL.pdb
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.DAL\obj\Debug\netcoreapp3.1\TheNightingalesSing.DAL.genruntimeconfig.cache

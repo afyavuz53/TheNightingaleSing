@@ -1,0 +1,12 @@
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Model\bin\Debug\netcoreapp3.1\TheNightingalesSing.Model.deps.json
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Model\bin\Debug\netcoreapp3.1\TheNightingalesSing.Model.dll
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Model\bin\Debug\netcoreapp3.1\TheNightingalesSing.Model.pdb
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Model\bin\Debug\netcoreapp3.1\TheNightingalesSing.Core.dll
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Model\bin\Debug\netcoreapp3.1\TheNightingalesSing.Core.pdb
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Model\obj\Debug\netcoreapp3.1\TheNightingalesSing.Model.csprojAssemblyReference.cache
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Model\obj\Debug\netcoreapp3.1\TheNightingalesSing.Model.AssemblyInfoInputs.cache
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Model\obj\Debug\netcoreapp3.1\TheNightingalesSing.Model.AssemblyInfo.cs
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Model\obj\Debug\netcoreapp3.1\TheNightingalesSing.Model.csproj.CoreCompileInputs.cache
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Model\obj\Debug\netcoreapp3.1\TheNightingalesSing.Model.csproj.CopyComplete
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Model\obj\Debug\netcoreapp3.1\TheNightingalesSing.Model.dll
+C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Model\obj\Debug\netcoreapp3.1\TheNightingalesSing.Model.pdb

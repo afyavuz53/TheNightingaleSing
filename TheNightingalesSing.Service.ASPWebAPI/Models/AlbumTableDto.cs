@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace TheNightingalesSing.Service.ASPWebAPI.Models
+{
+    public class AlbumTableDto
+    {
+        public int AlbumID { get; set; }
+        public string Title { get; set; }
+        public decimal Price { get; set; }
+        
+        public short Stock { get; set; }
+        public bool Continued { get; set; }
+        public bool Discount { get; set; }
+        public string ArtistName { get; set; }
+        public string GenreName { get; set; }
+        public bool IsActive { get; set; }
+    }
+}

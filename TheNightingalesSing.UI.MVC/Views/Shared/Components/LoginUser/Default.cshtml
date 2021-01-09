@@ -1,0 +1,26 @@
+﻿@model LoginUser
+
+@if (!string.IsNullOrEmpty(Model.UserName))
+{
+    <div>
+        <div class="classynav mr-50">
+            <ul>
+                <li>
+                    <a href="#">@Model.UserName</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Profil</a></li>
+                        <li><a asp-controller="account" asp-action="LogOff">Çıkış Yap</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+}
+else
+{
+    <div id="kullanici">
+        <div class="login-register-btn mr-50">
+            <a asp-controller="Account" asp-action="Login" id="loginBtn">Login / Register</a>
+        </div>
+    </div>
+}

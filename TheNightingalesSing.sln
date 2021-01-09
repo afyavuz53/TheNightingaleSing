@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheNightingalesSing.DAL", "TheNightingalesSing.DAL\TheNightingalesSing.DAL.csproj", "{6634E10E-C4CF-4210-929C-DA7A574C2573}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheNightingalesSing.BLL", "TheNightingalesSing.BLL\TheNightingalesSing.BLL.csproj", "{956AE0BE-13D9-49B5-8CB1-7D13B1BA70EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheNightingalesSing.Model", "TheNightingalesSing.Model\TheNightingalesSing.Model.csproj", "{6C71B374-081C-42FF-80A6-374FFE1EA2D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheNightingalesSing.Core", "TheNightingalesSing.Core\TheNightingalesSing.Core.csproj", "{0261C2CB-5AD8-4AFF-B709-43752D786715}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheNightingalesSing.Service.ASPWebAPI", "TheNightingalesSing.Service.ASPWebAPI\TheNightingalesSing.Service.ASPWebAPI.csproj", "{19C064F4-D0E3-4A68-A7F0-F90F7C1587DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheNightingalesSing.UI.MVC", "TheNightingalesSing.UI.MVC\TheNightingalesSing.UI.MVC.csproj", "{791C94C5-1426-485B-A89E-B5CA223268EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6634E10E-C4CF-4210-929C-DA7A574C2573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6634E10E-C4CF-4210-929C-DA7A574C2573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6634E10E-C4CF-4210-929C-DA7A574C2573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6634E10E-C4CF-4210-929C-DA7A574C2573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{956AE0BE-13D9-49B5-8CB1-7D13B1BA70EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956AE0BE-13D9-49B5-8CB1-7D13B1BA70EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956AE0BE-13D9-49B5-8CB1-7D13B1BA70EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956AE0BE-13D9-49B5-8CB1-7D13B1BA70EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C71B374-081C-42FF-80A6-374FFE1EA2D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C71B374-081C-42FF-80A6-374FFE1EA2D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C71B374-081C-42FF-80A6-374FFE1EA2D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C71B374-081C-42FF-80A6-374FFE1EA2D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0261C2CB-5AD8-4AFF-B709-43752D786715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0261C2CB-5AD8-4AFF-B709-43752D786715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0261C2CB-5AD8-4AFF-B709-43752D786715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0261C2CB-5AD8-4AFF-B709-43752D786715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C064F4-D0E3-4A68-A7F0-F90F7C1587DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C064F4-D0E3-4A68-A7F0-F90F7C1587DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C064F4-D0E3-4A68-A7F0-F90F7C1587DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C064F4-D0E3-4A68-A7F0-F90F7C1587DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{791C94C5-1426-485B-A89E-B5CA223268EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791C94C5-1426-485B-A89E-B5CA223268EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791C94C5-1426-485B-A89E-B5CA223268EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791C94C5-1426-485B-A89E-B5CA223268EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF6CC2A2-68F1-4373-A2F1-E408C30EC74E}
+	EndGlobalSection
+EndGlobal
