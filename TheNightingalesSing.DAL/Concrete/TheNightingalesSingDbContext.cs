@@ -11,7 +11,7 @@ namespace TheNightingalesSing.DAL.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("User ID=postgres; Password=159487; Server=localhost; Database=TheNightingalesSingDb");
+            optionsBuilder.UseNpgsql("User ID=postgres; Password=......; Server=localhost; Database=TheNightingalesSingDb");
             base.OnConfiguring(optionsBuilder);
         }
         public DbSet<Album> Albums { get; set; }
