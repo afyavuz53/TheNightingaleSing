@@ -44,3 +44,10 @@ C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Service
 C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Service.ASPWebAPI\bin\Debug\netcoreapp3.1\TheNightingalesSing.DAL.pdb
 C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Service.ASPWebAPI\bin\Debug\netcoreapp3.1\TheNightingalesSing.Model.pdb
 C:\Users\Ahmet Yavuz\source\repos\TheNightingaleSing\TheNightingalesSing.Service.ASPWebAPI\obj\Debug\netcoreapp3.1\TheNightingalesSing.Service.ASPWebAPI.csproj.CopyComplete
+C:\Users\Ahmet Yavuz\Source\Repos\TheNightingaleSing\TheNightingalesSing.Service.ASPWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Ahmet Yavuz\Source\Repos\TheNightingaleSing\TheNightingalesSing.Service.ASPWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Ahmet Yavuz\Source\Repos\TheNightingaleSing\TheNightingalesSing.Service.ASPWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Ahmet Yavuz\Source\Repos\TheNightingaleSing\TheNightingalesSing.Service.ASPWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Ahmet Yavuz\Source\Repos\TheNightingaleSing\TheNightingalesSing.Service.ASPWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Ahmet Yavuz\Source\Repos\TheNightingaleSing\TheNightingalesSing.Service.ASPWebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Ahmet Yavuz\Source\Repos\TheNightingaleSing\TheNightingalesSing.Service.ASPWebAPI\bin\Debug\netcoreapp3.1\System.Text.Json.dll

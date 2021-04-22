@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,11 +8,14 @@ using TheNightingalesSing.Model.Entities;
 
 namespace TheNightingalesSing.DAL.Concrete
 {
-    class TheNightingalesSingDbContext:DbContext
+    class TheNightingalesSingDbContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("User ID=postgres; Password=......; Server=localhost; Database=TheNightingalesSingDb");
+            IConfigurationBuilder configurationBuilder = new ConfigurationBuilder().AddJsonFile("appsettings.json", optional: false, reloadOnChange: false);
+            IConfiguration configuration = configurationBuilder.Build();
+            string connectionString = configuration.GetConnectionString("DefaultConnection");
+            optionsBuilder.UseNpgsql(connectionString);
             base.OnConfiguring(optionsBuilder);
         }
         public DbSet<Album> Albums { get; set; }

@@ -546,19 +546,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ahmet Yavuz\\.nuget\\packages\\": {}
+    "C:\\Users\\Ahmet Yavuz\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.Model\\TheNightingalesSing.Model.csproj",
+      "projectUniqueName": "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.Model\\TheNightingalesSing.Model.csproj",
       "projectName": "TheNightingalesSing.Model",
-      "projectPath": "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.Model\\TheNightingalesSing.Model.csproj",
+      "projectPath": "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.Model\\TheNightingalesSing.Model.csproj",
       "packagesPath": "C:\\Users\\Ahmet Yavuz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.Model\\obj\\",
+      "outputPath": "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.Model\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Ahmet Yavuz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -572,8 +577,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.Core\\TheNightingalesSing.Core.csproj": {
-              "projectPath": "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.Core\\TheNightingalesSing.Core.csproj"
+            "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.Core\\TheNightingalesSing.Core.csproj": {
+              "projectPath": "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.Core\\TheNightingalesSing.Core.csproj"
             }
           }
         }
@@ -602,7 +607,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
