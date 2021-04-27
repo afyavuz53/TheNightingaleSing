@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using TheNightingalesSing.DAL.Concrete;
@@ -9,9 +10,10 @@ using TheNightingalesSing.DAL.Concrete;
 namespace TheNightingalesSing.DAL.Migrations
 {
     [DbContext(typeof(TheNightingalesSingDbContext))]
-    partial class TheNightingalesSingDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210424194042_april24a2")]
+    partial class april24a2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

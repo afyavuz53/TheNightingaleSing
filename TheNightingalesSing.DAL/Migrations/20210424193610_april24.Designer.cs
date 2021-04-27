@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using TheNightingalesSing.DAL.Concrete;
@@ -9,9 +10,10 @@ using TheNightingalesSing.DAL.Concrete;
 namespace TheNightingalesSing.DAL.Migrations
 {
     [DbContext(typeof(TheNightingalesSingDbContext))]
-    partial class TheNightingalesSingDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210424193610_april24")]
+    partial class april24
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -254,13 +256,13 @@ namespace TheNightingalesSing.DAL.Migrations
                             ActivationCode = new Guid("00000000-0000-0000-0000-000000000000"),
                             Address = "Rize",
                             BirthDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            CreateDate = new DateTime(2021, 4, 24, 22, 40, 41, 914, DateTimeKind.Local).AddTicks(1714),
+                            CreateDate = new DateTime(2021, 4, 24, 22, 36, 9, 867, DateTimeKind.Local).AddTicks(7624),
                             Email = "af.yavuz@gg.com",
                             FirstName = "Ahmet Fehmi",
                             IsActive = true,
                             LastName = "Yavuz",
-                            PasswordHash = new byte[] { 245, 83, 59, 19, 28, 185, 4, 132, 16, 10, 12, 19, 3, 85, 12, 175, 71, 124, 40, 49, 210, 127, 198, 57, 27, 76, 151, 247, 186, 25, 154, 10, 195, 60, 195, 30, 245, 64, 140, 189, 30, 98, 5, 220, 123, 116, 64, 99, 225, 38, 38, 145, 105, 84, 5, 243, 45, 63, 152, 15, 116, 32, 15, 6 },
-                            PasswordSalt = new byte[] { 127, 96, 242, 106, 219, 198, 32, 167, 243, 59, 66, 35, 174, 161, 204, 192, 160, 93, 160, 10, 226, 153, 175, 70, 173, 70, 80, 184, 46, 211, 229, 228, 186, 184, 15, 199, 228, 185, 182, 61, 118, 75, 64, 196, 78, 170, 33, 200, 49, 51, 245, 76, 195, 30, 121, 52, 157, 142, 40, 54, 217, 93, 83, 165, 217, 180, 43, 133, 252, 178, 165, 145, 164, 181, 164, 156, 214, 197, 79, 198, 197, 240, 101, 115, 137, 232, 207, 81, 101, 222, 173, 100, 67, 170, 137, 252, 88, 168, 39, 122, 115, 44, 32, 62, 118, 212, 175, 78, 206, 209, 36, 32, 94, 59, 255, 243, 181, 5, 81, 4, 59, 100, 17, 116, 25, 186, 92, 95 },
+                            PasswordHash = new byte[] { 12, 9, 14, 66, 48, 54, 33, 140, 83, 152, 156, 52, 188, 86, 243, 156, 16, 158, 99, 1, 12, 243, 230, 209, 109, 249, 250, 193, 193, 133, 80, 128, 23, 46, 118, 82, 251, 205, 184, 72, 146, 25, 38, 143, 10, 104, 137, 14, 106, 72, 68, 198, 231, 59, 1, 215, 218, 55, 95, 175, 87, 0, 154, 68 },
+                            PasswordSalt = new byte[] { 169, 59, 146, 114, 42, 39, 133, 175, 83, 40, 53, 194, 101, 145, 173, 135, 106, 200, 220, 193, 184, 151, 193, 221, 48, 180, 42, 62, 78, 7, 69, 102, 231, 150, 75, 202, 249, 106, 160, 206, 193, 164, 255, 102, 14, 126, 56, 12, 30, 63, 124, 32, 224, 179, 160, 106, 56, 149, 207, 10, 57, 11, 155, 218, 232, 169, 189, 10, 254, 49, 107, 22, 248, 207, 219, 58, 249, 74, 222, 107, 72, 105, 217, 177, 219, 73, 255, 149, 135, 84, 202, 179, 59, 3, 44, 210, 218, 117, 137, 48, 120, 239, 67, 155, 131, 128, 133, 123, 224, 90, 8, 232, 134, 167, 150, 29, 73, 128, 204, 72, 11, 229, 76, 129, 240, 216, 118, 92 },
                             Role = 2,
                             UserName = "Admin"
                         });

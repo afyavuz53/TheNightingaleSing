@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZkAW/pgPF9uTCSGV8aUq9CzyvJeU7GSg4J8T3l0IX7h9lD+BTbEYgnWDaF9mjQv9v2jM5CmzYayKl4JpsD6NiQ==",
+  "dgSpecHash": "RH7f6vam+zyCS8UV2VGJBpEpb/Y3N4sWfqwYfa7gp/1qUooIf1ULWpiivDGFIiqePxXJ0uYYe5kRkwbsNlOf1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.DAL\\TheNightingalesSing.DAL.csproj",
+  "projectFilePath": "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.DAL\\TheNightingalesSing.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ahmet Yavuz\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Ahmet Yavuz\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

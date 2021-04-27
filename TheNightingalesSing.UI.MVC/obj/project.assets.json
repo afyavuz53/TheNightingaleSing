@@ -7069,11 +7069,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.UI.MVC\\TheNightingalesSing.UI.MVC.csproj",
+      "projectUniqueName": "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.UI.MVC\\TheNightingalesSing.UI.MVC.csproj",
       "projectName": "TheNightingalesSing.UI.MVC",
-      "projectPath": "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.UI.MVC\\TheNightingalesSing.UI.MVC.csproj",
+      "projectPath": "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.UI.MVC\\TheNightingalesSing.UI.MVC.csproj",
       "packagesPath": "C:\\Users\\Ahmet Yavuz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.UI.MVC\\obj\\",
+      "outputPath": "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.UI.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7094,8 +7094,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.BLL\\TheNightingalesSing.BLL.csproj": {
-              "projectPath": "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.BLL\\TheNightingalesSing.BLL.csproj"
+            "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.BLL\\TheNightingalesSing.BLL.csproj": {
+              "projectPath": "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.BLL\\TheNightingalesSing.BLL.csproj"
             }
           }
         }

@@ -997,11 +997,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.Service.ASPWebAPI\\TheNightingalesSing.Service.ASPWebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.Service.ASPWebAPI\\TheNightingalesSing.Service.ASPWebAPI.csproj",
       "projectName": "TheNightingalesSing.Service.ASPWebAPI",
-      "projectPath": "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.Service.ASPWebAPI\\TheNightingalesSing.Service.ASPWebAPI.csproj",
+      "projectPath": "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.Service.ASPWebAPI\\TheNightingalesSing.Service.ASPWebAPI.csproj",
       "packagesPath": "C:\\Users\\Ahmet Yavuz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.Service.ASPWebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.Service.ASPWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1022,8 +1022,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.BLL\\TheNightingalesSing.BLL.csproj": {
-              "projectPath": "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.BLL\\TheNightingalesSing.BLL.csproj"
+            "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.BLL\\TheNightingalesSing.BLL.csproj": {
+              "projectPath": "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.BLL\\TheNightingalesSing.BLL.csproj"
             }
           }
         }

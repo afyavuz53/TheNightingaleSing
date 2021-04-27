@@ -212,5 +212,12 @@ namespace TheNightingalesSing.Service.ASPWebAPI.Controllers
             albumBLL.DeleteByID(id);
             return Ok();
         }
+        //post yokmuş :D  hemen yapalım
+
+        [HttpPost]
+        public IActionResult AlbumPost(AlbumDto dto)
+        {
+            return Ok();
+        }
     }
 }

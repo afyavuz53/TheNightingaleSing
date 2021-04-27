@@ -12,10 +12,10 @@ namespace TheNightingalesSing.DAL.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            IConfigurationBuilder configurationBuilder = new ConfigurationBuilder().AddJsonFile("appsettings.json", optional: false, reloadOnChange: false);
-            IConfiguration configuration = configurationBuilder.Build();
-            string connectionString = configuration.GetConnectionString("DefaultConnection");
-            optionsBuilder.UseNpgsql(connectionString);
+            //IConfigurationBuilder configurationBuilder = new ConfigurationBuilder().AddJsonFile("appsettings.json", optional: false, reloadOnChange: false);
+            //IConfiguration configuration = configurationBuilder.Build();
+            //string connectionString = configuration.GetConnectionString("DefaultConnection");
+            optionsBuilder.UseNpgsql("User ID=postgres; Password=159487; Server=localhost; Database=TheNightingalesSingDb");
             base.OnConfiguring(optionsBuilder);
         }
         public DbSet<Album> Albums { get; set; }

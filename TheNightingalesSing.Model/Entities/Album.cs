@@ -24,5 +24,6 @@ namespace TheNightingalesSing.Model.Entities
         public Artist Artist { get; set; }
         public Genre Genre { get; set; }
         public ICollection<OrderDetail> OrderDetail { get; set; }
+        public string ReDate { get; set; }
     }
 }

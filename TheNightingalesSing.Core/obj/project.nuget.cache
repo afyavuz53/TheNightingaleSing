@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/cZipG1Xkd7p3yOd4flXcSx61NvtbRomk8pzkYG8jl5cORoyOr8Nvc2ZoRP+BhcFlpoVSbHS5SwSKew+8plhZQ==",
+  "dgSpecHash": "Ol+A86M8ZFDb2Syqo849r+hBDijSXls2mR9p+Inn5DywI6IN2HnOkGgx4uS+2w7mSyqvYxQA0RZHfiagw9XqrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.Core\\TheNightingalesSing.Core.csproj",
+  "projectFilePath": "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.Core\\TheNightingalesSing.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ahmet Yavuz\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\Ahmet Yavuz\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4/2X6xqf9Pm7rEbP+XS1JYxrHThImgFukMkhHbXXorjUDg6aQUnk3saenG8gpxNGC2ElvZtAiehqYevK3bfSGg==",
+  "dgSpecHash": "CHxzqyijYaz6s/xJYDIp39WPua5/0C9OSWni08LzcwpgKikQce5eV4990qPyIiCgaARIkYV4S4slFdnMn/mlRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ahmet Yavuz\\Source\\Repos\\TheNightingaleSing\\TheNightingalesSing.Service.ASPWebAPI\\TheNightingalesSing.Service.ASPWebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Ahmet Yavuz\\source\\repos\\TheNightingaleSing\\TheNightingalesSing.Service.ASPWebAPI\\TheNightingalesSing.Service.ASPWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ahmet Yavuz\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\Ahmet Yavuz\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
